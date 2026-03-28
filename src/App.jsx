@@ -48,7 +48,7 @@ function App() {
       <input type="text" value={id} onChange={(e) => {setId(e.target.value)}}></input>
       <button onClick={callid}>Call</button>
       <h2>my video</h2>
-      <video ref={myvideo} autoPlay playsInline></video>
+      <video ref={myvideo} autoPlay muted playsInline></video>
       <h2>you</h2>
       <video ref={recivedvideo} autoPlay playsInline></video>
     </>
